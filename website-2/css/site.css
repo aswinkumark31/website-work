@@ -15,3 +15,14 @@
     border-color: black;
     
 }
+
+.first-sec{
+    border-color: black;
+    border-style: solid;
+}
+.inner-sec .column-2 .para-1{
+    font-size: 6em;
+}
+.inner-sec .column-3 .image-2{
+    width: 100%;
+}
