@@ -26,3 +26,32 @@
 .inner-sec .column-3 .image-2{
     width: 100%;
 }
+
+
+.category-sec{
+    background-color: #143a51;
+}
+.category-sec li a{
+    color: white;
+}
+.category-sec li a:hover{
+    color: red;
+}
+.category-sec .head{
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.demo-sec .column-1{
+    border-style: solid;
+    border-color: rgb(64, 61, 61);
+}
+.demo-sec .column-2{
+    border-style: solid;
+    border-color: rgb(64, 61, 61);
+}
+.demo-sec .column-3{
+    border-style: solid;
+    border-color: rgb(64, 61, 61);
+}
