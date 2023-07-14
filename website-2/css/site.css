@@ -55,3 +55,10 @@
     border-style: solid;
     border-color: rgb(64, 61, 61);
 }
+
+.demo-sec .column-1 .head{
+    font-weight: bold;
+}
+/* .demo-sec .column-1 .image{
+    
+} */
