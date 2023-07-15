@@ -1,0 +1,25 @@
+.demo-lap .head{
+    font-weight: bolder;
+}
+.lap-img{
+    border-style: ridge;
+}
+.lap-img .column-1 .image-1{
+    margin-top: 15%;
+}
+.lap-img .column-2 .image-2{
+    margin-top: 15%;
+}
+.lap-img .column-3 .image-3{
+    margin-top: 15%;
+}
+
+.lap-img .com-sec h3{
+    margin-top: 4%;
+}
+.lap-img .lap-sec h3{
+    margin-top: 13%;
+}
+.lap-img .mac-sec h3{
+    margin-top: 14%;
+}
