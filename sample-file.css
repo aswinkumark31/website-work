@@ -1,25 +1,24 @@
-.demo-lap .head{
+
+.mans-cloth{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.mans-cloth h1{
     font-weight: bolder;
 }
-.lap-img{
+.cloth-sec{
     border-style: ridge;
 }
-.lap-img .column-1 .image-1{
-    margin-top: 15%;
+.cloth-sec .description .heading-1{
+    font-weight: bolder;
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 4%;
 }
-.lap-img .column-2 .image-2{
-    margin-top: 15%;
+.cloth-sec .button-sec .button-1{
+    margin-top: 70%;
 }
-.lap-img .column-3 .image-3{
-    margin-top: 15%;
-}
-
-.lap-img .com-sec h3{
-    margin-top: 4%;
-}
-.lap-img .lap-sec h3{
-    margin-top: 13%;
-}
-.lap-img .mac-sec h3{
-    margin-top: 14%;
+.cloth-sec .image-sec .image-1{
+    width: 1000px;
+    margin-top: 7%;
 }

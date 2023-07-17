@@ -63,3 +63,104 @@
 .demo-sec .column-3 .image{
     text-align: center;
 }
+
+/* computers sectio start */
+.demo-lap{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.demo-lap .head{
+    font-weight: bolder;
+}
+.lap-img{
+    border-style: ridge;
+}
+
+.lap-img .column-1 .image-1{
+    margin-top: 15%;
+}
+.lap-img .column-2 .image-2{
+    margin-top: 15%;
+}
+.lap-img .column-3 .image-3{
+    margin-top: 15%;
+}
+
+.lap-img .com-sec h3{
+    margin-top: 4%;
+}
+.lap-img .lap-sec h3{
+    margin-top: 13%;
+}
+.lap-img .mac-sec h3{
+    margin-top: 14%;
+}
+
+.lap-img .nav1 .brand-1{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+.lap-img .nav1 .price-1{
+    color: orangered;
+    font-weight: bold;
+}
+.lap-img .nav1 .prices-1{
+    color: slategrey;
+    font-weight: bold;
+}
+
+.lap-img .nav2 .brand-2{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+.lap-img .nav2 .price-2{
+    color: orangered;
+    font-weight: bold;
+}
+.lap-img .nav2 .prices-2{
+    color: slategrey;
+    font-weight: bold;
+}
+.lap-img .nav3 .brand-3{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+.lap-img .nav3 .price-3{
+    color: orangered;
+    font-weight: bold;
+}
+.lap-img .nav3 .prices-3{
+    color: slategrey;
+    font-weight: bold;
+}
+
+/* computers section end */
+
+/* mens section start */
+.mans-cloth{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.mans-cloth h1{
+    font-weight: bolder;
+}
+.cloth-sec{
+    border-style: ridge;
+}
+.cloth-sec .description .heading-1{
+    font-weight: bolder;
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+.cloth-sec .button-sec .button-1{
+    margin-top: 70%;
+}
+.cloth-sec .image-sec .image-1{
+    width: 1000px;
+    margin-top: 7%;
+}
+/* mens section end */
