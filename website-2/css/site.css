@@ -86,14 +86,17 @@
     margin-top: 15%;
 }
 
-.lap-img .com-sec h3{
+.lap-img .com-sec h4{
     margin-top: 4%;
+    font-weight: bold;
 }
-.lap-img .lap-sec h3{
+.lap-img .lap-sec h4{
     margin-top: 13%;
+    font-weight: bold;
 }
-.lap-img .mac-sec h3{
+.lap-img .mac-sec h4{
     margin-top: 14%;
+    font-weight: bold;
 }
 
 .lap-img .nav1 .brand-1{
@@ -160,7 +163,25 @@
     margin-top: 70%;
 }
 .cloth-sec .image-sec .image-1{
-    width: 1000px;
-    margin-top: 7%;
+    width: 750px;
+    margin-top: 10%;
 }
 /* mens section end */
+
+/* women's section start */
+
+
+.women-sec .heading-sec h1{
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.womens-cloth .description .heading-1{
+    font-weight: bolder;
+    font-size: 3.4em;
+}
+.womens-cloth .description .button-1{
+    margin-top: 8%;
+}
+
+/* women's section end */
