@@ -9,17 +9,26 @@
 
 .first-sec{
     width: 80%;
-    
+    /* border-top: 95%; */
 }
 
 .first-sec{
     border-style: ridge;
+    border-top: 60%;
+}
+
+.inner-sec .column-1 .image-1{
+    /* margin-top: 10%; */
 }
 .inner-sec .column-2 .para-1{
-    font-size: 6em;
+    font-size: 5em;
+    margin-top: 50%;
+    font-weight: bold;
+    color: #143a51;
 }
 .inner-sec .column-3 .image-2{
     width: 100%;
+    margin-top: 50%;
 }
 
 
@@ -54,14 +63,40 @@
 .demo-sec .column-1 .head{
     font-weight: bold;
 }
-.demo-sec .column-1 .image{
-    text-align: center;
+.demo-sec .column-1 .image-1{
+    width: 40%;
+    /* text-align: center; */
 }
-.demo-sec .column-2 .image{
-    text-align: center;
+.demo-sec .column-2 .image-2{
+    width: 40%;
+    margin-top: 10%;
+    /* text-align: center; */
 }
-.demo-sec .column-3 .image{
-    text-align: center;
+.demo-sec .column-3 .image-3{
+    width: 45%;
+    margin-top: 13%;
+    /* text-align: center; */
+}
+.demo-sec .column-1 .mobhead{
+    font-weight: bold;
+}
+.demo-sec .column-2 .watchhead{
+    font-weight: bold;
+}
+.demo-sec .column-3 .camhead{
+    font-weight: bold;
+}
+.demo-sec .column-1 .navmob{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.demo-sec .column-2 .navwatch{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.demo-sec .column-3 .navcam{
+    margin-top: 16%;
+    margin-bottom: 5%;
 }
 
 /* computers sectio start */
@@ -71,27 +106,31 @@
 }
 .demo-lap .head{
     font-weight: bolder;
+    font-size: 40px;
 }
 .lap-img{
     border-style: ridge;
 }
 
-.lap-img .column-1 .image-1{
-    margin-top: 15%;
+.lap-img .com-sec .image-1{
+    margin-top: 5%;
+    width: 50%;
 }
-.lap-img .column-2 .image-2{
-    margin-top: 15%;
+.lap-img .lap-sec .image-2{
+    margin-top: 5%;
+    width: 60%;
 }
-.lap-img .column-3 .image-3{
-    margin-top: 15%;
+.lap-img .mac-sec .image-3{
+    margin-top: 5%;
+    width: 70%;
 }
 
-.lap-img .com-sec h4{
-    margin-top: 4%;
+.lap-img .com-sec .computer{
+    margin-top: 3%;
     font-weight: bold;
 }
 .lap-img .lap-sec h4{
-    margin-top: 13%;
+    margin-top: 16%;
     font-weight: bold;
 }
 .lap-img .mac-sec h4{
