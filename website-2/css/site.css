@@ -224,3 +224,32 @@
 }
 
 /* women's section end */
+
+/* footer sec start */
+
+.footer-sec{
+    background-color: #143a51  ;
+}
+.footer-sec .column-1{
+    margin-bottom: 3%;
+}
+.footer-sec .head-sec .heading{
+    color: white;
+    font-size: 4em;
+    font-weight: bolder;
+}
+.footer-sec .column-1 .icon{
+    color: white;
+}
+.description-sec .column-1 .heading-1{
+    color: white;
+    font-weight: bolder;
+}
+.description-sec .column-1 .paragraph-1{
+    color: white;
+}
+.description-sec .column-1 .menu-sec{
+    color: ghostwhite;
+}
+
+/* footer sec end */
