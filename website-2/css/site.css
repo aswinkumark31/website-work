@@ -75,18 +75,19 @@
 .demo-sec .column-1 .head{
     font-weight: bold;
 }
-.demo-sec .column-1 img.image-1{
+.demo-sec .pos-1 img.image-1{
     /* padding-left: 180px; */
-    width: 50%;
-    /* align-items: center; */
+    /* width: 100%; */
+    margin-top: 8%;
+    align-items: center;
 }
-.demo-sec .column-2 .image-2{
-    width: 50%;
-    margin-top: 10%;
+.demo-sec .pos-2 img.image-2{
+    /* width: 50%; */
+    margin-top: 25%;
     /* text-align: center; */
 }
-.demo-sec .column-3 .image-3{
-    width: 50%;
+.demo-sec .pos-3 img.image-3{
+    /* width: 50%; */
     margin-top: 13%;
     /* text-align: center; */
 }
