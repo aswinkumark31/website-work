@@ -16,10 +16,21 @@
     border-style: ridge;
     border-top: 60%;
 }
-
-.inner-sec .column-1 .image-1{
-    /* margin-top: 10%; */
+.slide-sec .column-1 .preview-image{
+    width: 17%;
+    color: #143a51;
 }
+/* .slide-sec .column-1 .preview-image a:hover{
+    color: orangered;
+} */
+.slide-sec .column-1 .next-image{
+    width: 17%;
+    color: #143a51;
+}
+/* .slide-sec .next-image a:hover{
+    color: orangered;
+} */
+
 .inner-sec .column-2 .para-1{
     font-size: 5em;
     margin-top: 50%;
@@ -52,6 +63,7 @@
 
 .demo-sec .column-1{
     border-style: ridge;
+   
 }
 .demo-sec .column-2{
     border-style: ridge;
@@ -63,17 +75,18 @@
 .demo-sec .column-1 .head{
     font-weight: bold;
 }
-.demo-sec .column-1 .image-1{
-    width: 40%;
-    /* text-align: center; */
+.demo-sec .column-1 img.image-1{
+    /* padding-left: 180px; */
+    width: 50%;
+    /* align-items: center; */
 }
 .demo-sec .column-2 .image-2{
-    width: 40%;
+    width: 50%;
     margin-top: 10%;
     /* text-align: center; */
 }
 .demo-sec .column-3 .image-3{
-    width: 45%;
+    width: 50%;
     margin-top: 13%;
     /* text-align: center; */
 }
@@ -114,15 +127,15 @@
 
 .lap-img .com-sec .image-1{
     margin-top: 5%;
-    width: 50%;
+    width: 100%;
 }
 .lap-img .lap-sec .image-2{
     margin-top: 5%;
-    width: 60%;
+    width: 100%;
 }
 .lap-img .mac-sec .image-3{
     margin-top: 5%;
-    width: 70%;
+    width: 100%;
 }
 
 .lap-img .com-sec .computer{
@@ -202,7 +215,7 @@
     margin-top: 70%;
 }
 .cloth-sec .image-sec .image-1{
-    width: 750px;
+    width: 100%;
     margin-top: 10%;
 }
 /* mens section end */
@@ -222,6 +235,9 @@
 .womens-cloth .description .button-1{
     margin-top: 8%;
 }
+.womens-cloth .column-2 .dress{
+    width: 100%;
+}
 
 /* women's section end */
 
@@ -229,6 +245,7 @@
 
 .footer-sec{
     background-color: #143a51  ;
+    margin-top: 5%;
 }
 .footer-sec .column-1{
     margin-bottom: 3%;
@@ -238,9 +255,9 @@
     font-size: 4em;
     font-weight: bolder;
 }
-.footer-sec .column-1 .icon{
+/* .footer-sec .column-1 .icon{
     color: white;
-}
+} */
 .description-sec .column-1 .heading-1{
     color: white;
     font-weight: bolder;
@@ -250,6 +267,7 @@
 }
 .description-sec .column-1 .menu-sec{
     color: ghostwhite;
+    text-decoration: none;
 }
 
 /* footer sec end */
