@@ -1,0 +1,25 @@
+.mainrow{
+    background: -webkit-linear-gradient(117deg, rgb(96, 87, 246), rgb(216, 71, 99));
+    background: linear-gradient(117deg, rgb(96, 87, 246), rgb(216, 71, 99));
+    background: -webkit-radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+.navigation-sec .nav1 a{
+    color: white;
+}
+.navigation-sec .nav1 a:hover{
+    color: blue;
+}
+.hero-sec .descrptn .heading{
+    color: white;
+    font-weight: bolder;
+    /* margin-top: 10%; */
+}
+.hero-sec .descrptn .paragraph{
+    color: white;
+    font-size: 20px;
+}
+.hero-sec .heroleft-sec .image-1{
+    width: 100%;
+
+}
