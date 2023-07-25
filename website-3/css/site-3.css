@@ -68,3 +68,70 @@
     padding-top: 1%;
     padding-bottom: 1%;
 }
+.logosec-main{
+    padding-bottom: 100px;
+    background-color: white;
+}
+.bottomsec .bottomsec-column .image-1{
+    width: 100%;
+}
+.bottomsec .bottomsec-left{
+    padding-left: 100px;
+}
+.bottomsec .bottomsec-left p{
+    padding-top: 5%;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 15px;
+    /* color: whitesmoke; */
+    /* text-align: left; */
+}
+.bottomsec .bottomsec-left h3{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+/* logo section--end */
+
+/* <!-- pricing section --start --> */
+
+.pricesec-main{
+    background-color: whitesmoke;
+}
+
+/* <!-- pricing section --end --> */
+
+/* pricing section --start */
+
+.teamsec{
+    padding-bottom: 120px;
+    background-color: white;
+}
+.teamheader .headercolumn .heading{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-weight: 300;
+    font-size: 30px;
+}
+.teamsec-bottom .bottomcolumn img{
+    width: 50%;
+    justify-content: center;
+}
+.teamsec-bottom .bottomcolumn h5{
+    font-weight: 300;
+    font-size: 20px;
+}
+.teamsec-bottom .bottomcolumn .paragraph{
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/* pricing section --end */
+
+/* bottom section start */
+
+.bottomsection{
+    background-color: #0ABCEB;
+}
+
