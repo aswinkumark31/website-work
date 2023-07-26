@@ -11,21 +11,27 @@
 .navigation-sec .nav1 a:hover{
     color: blue;
 }
+.hero-sec{
+    padding-bottom: 7%;
+}
 .hero-sec .descrptn .heading{
     color: white;
     font-weight: bolder;
-    /* margin-top: 10%; */
+    margin-top: 14%;
 }
 .hero-sec .descrptn .paragraph{
     color: white;
     font-size: 20px;
 }
 .hero-sec .heroleft-sec .image-1{
-    width: 100%;
+    margin-top: 5%;
+    /* margin-right: 10%; */
+    width: 90%;
     border: solid;
     border-radius: 5%;
     border-color: white;
     border-width: .5cm;
+    transform: rotate(-10deg);
 
 }
 
@@ -97,11 +103,54 @@
 
 .pricesec-main{
     background-color: whitesmoke;
+    padding-bottom: 7%;
+    
 }
+
+.pricesec-main .pricesec-column .heading{
+    margin-top: 5%;
+    font-weight: 200;
+    font-size: 35px;
+}
+.pricesec-main .pricesec-column .paragraph{
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.cardsec .cardcolumn h5{
+    font-weight: 200;
+    font-size: 20px;
+}
+.cardsec .cardcolumn h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.cardsec .cardcolumn h6{
+    text-align: center;
+    margin-bottom: 12%;
+} 
+.cardsec .cardcolumn ul{
+    text-align: center;
+    line-height: 7px;
+    font-weight: 320;
+    font-size: 15px;
+}
+.cardsec .cardcolumn .button1{
+   margin-top: 90px;
+}
+.cardsec .cardcolumn .button2{
+    margin-top: 70px;
+ }
+ .cardsec .cardcolumn .button3{
+    margin-top: 50px;
+ }
 
 /* <!-- pricing section --end --> */
 
-/* pricing section --start */
+/* team section --start */
 
 .teamsec{
     padding-bottom: 120px;
@@ -127,11 +176,20 @@
     font-size: 14px;
 }
 
-/* pricing section --end */
+/* team section --end */
 
 /* bottom section start */
 
-.bottomsection{
+.bottomsection {
     background-color: #0ABCEB;
+}
+.despsec .despcolumn h3{
+    color: white;
+    font-weight: bold;
+}
+.despsec .despcolumn p{
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
 }
 
