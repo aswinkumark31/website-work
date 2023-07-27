@@ -54,6 +54,7 @@
     background-color: white;
     padding: 10px;
     border-radius: 50%;
+    margin-left: 35%;
     
 }
 .iconrow .feature-icon h6{
@@ -73,10 +74,14 @@
 .topsec .topsec-column img{
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-left: 30%;
 }
 .logosec-main{
     padding-bottom: 100px;
     background-color: white;
+}
+.logosec-column .bottomsec{
+    justify-content: center;
 }
 .bottomsec .bottomsec-column .image-1{
     width: 100%;
@@ -84,17 +89,15 @@
 .bottomsec .bottomsec-left{
     padding-left: 100px;
 }
-.bottomsec .bottomsec-left p{
+.bottomsec .bottomsec-left h6{
     padding-top: 5%;
     line-height: 30px;
     font-weight: 300;
-    font-size: 15px;
-    /* color: whitesmoke; */
-    /* text-align: left; */
+    font-size: 16px;
 }
 .bottomsec .bottomsec-left h3{
     font-weight: 300;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 /* logo section--end */
@@ -107,11 +110,24 @@
     
 }
 
+.cardsec .cardcolumn2{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  
+    
+}
+
 .pricesec-main .pricesec-column .heading{
     margin-top: 5%;
     font-weight: 200;
     font-size: 35px;
 }
+
 .pricesec-main .pricesec-column .paragraph{
     font-weight: 300;
     font-size: 20px;
@@ -119,33 +135,74 @@
     margin-bottom: 4%;
 }
 
-.cardsec .cardcolumn h5{
+.cardsec .cardcolumn1 h5{
     font-weight: 200;
     font-size: 20px;
 }
-.cardsec .cardcolumn h1{
+.cardsec .cardcolumn2 h5{
+    font-weight: 200;
+    font-size: 20px;
+}
+.cardsec .cardcolumn3 h5{
+    font-weight: 200;
+    font-size: 20px;
+}
+.cardsec .cardcolumn1 h1{
     text-align: center;
     font-weight: bolder;
     font-size: 50px;
 }
-.cardsec .cardcolumn h6{
+.cardsec .cardcolumn2 h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.cardsec .cardcolumn3 h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.cardsec .cardcolumn1 h6{
     text-align: center;
     margin-bottom: 12%;
 } 
-.cardsec .cardcolumn ul{
+.cardsec .cardcolumn2 h6{
+    text-align: center;
+    margin-bottom: 12%;
+} 
+.cardsec .cardcolumn3 h6{
+    text-align: center;
+    margin-bottom: 12%;
+} 
+.cardsec .cardcolumn1 ul{
     text-align: center;
     line-height: 7px;
     font-weight: 320;
     font-size: 15px;
 }
-.cardsec .cardcolumn .button1{
-   margin-top: 90px;
+.cardsec .cardcolumn2 ul{
+    text-align: center;
+    line-height: 7px;
+    font-weight: 320;
+    font-size: 15px;
 }
-.cardsec .cardcolumn .button2{
+.cardsec .cardcolumn3 ul{
+    text-align: center;
+    line-height: 7px;
+    font-weight: 320;
+    font-size: 15px;
+}
+.cardsec .cardcolumn1 .button1{
+   margin-top: 90px;
+   margin-bottom: 17%;
+}
+.cardsec .cardcolumn2 .button2{
     margin-top: 70px;
+    margin-bottom: 17%;
  }
- .cardsec .cardcolumn .button3{
+ .cardsec .cardcolumn3 .button3{
     margin-top: 50px;
+    margin-bottom: 17%;
  }
 
 /* <!-- pricing section --end --> */
@@ -164,7 +221,7 @@
 }
 .teamsec-bottom .bottomcolumn img{
     width: 50%;
-    justify-content: center;
+    margin-left: 22%;
 }
 .teamsec-bottom .bottomcolumn h5{
     font-weight: 300;
@@ -192,4 +249,6 @@
     font-weight: 300;
     font-size: 17px;
 }
+
+/* bottom section end */
 
