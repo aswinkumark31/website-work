@@ -69,12 +69,13 @@
 
 .topsec .topsec-column{
     background-color: whitesmoke;
-    width: 100%;
+    /* width: 100%; */
 }
 .topsec .topsec-column img{
     padding-top: 1%;
     padding-bottom: 1%;
     margin-left: 30%;
+    width: 40%;
 }
 .logosec-main{
     padding-bottom: 100px;
@@ -176,33 +177,60 @@
 } 
 .cardsec .cardcolumn1 ul{
     text-align: center;
-    line-height: 7px;
+    line-height: 25px;
     font-weight: 320;
     font-size: 15px;
+    list-style-type: none;
 }
+
+.cardsec .cardcolumn1 li:before{
+    content: '\2713';
+    display: inline-block;
+    color: red;
+    padding: 0 6px 0 0;
+}
+.cardsec .cardcolumn2 li:before{
+    content: '\2713';
+    display: inline-block;
+    color: red;
+    padding: 0 6px 0 0;
+}
+.cardsec .cardcolumn3 li:before{
+    content: '\2713';
+    display: inline-block;
+    color: red;
+    padding: 0 6px 0 0;
+}
+
+
 .cardsec .cardcolumn2 ul{
     text-align: center;
-    line-height: 7px;
+    line-height: 25px;
     font-weight: 320;
     font-size: 15px;
+    list-style-type: none;
 }
 .cardsec .cardcolumn3 ul{
     text-align: center;
-    line-height: 7px;
+    line-height: 25px;
     font-weight: 320;
     font-size: 15px;
+    list-style-type: none;
 }
 .cardsec .cardcolumn1 .button1{
    margin-top: 90px;
    margin-bottom: 17%;
+   margin-left: 38%;
 }
 .cardsec .cardcolumn2 .button2{
     margin-top: 70px;
     margin-bottom: 17%;
+    margin-left: 35%;
  }
  .cardsec .cardcolumn3 .button3{
     margin-top: 50px;
     margin-bottom: 17%;
+    margin-left: 38%;
  }
 
 /* <!-- pricing section --end --> */
@@ -237,7 +265,7 @@
 
 /* bottom section start */
 
-.bottomsection {
+.bottomsection{
     background-color: #0ABCEB;
 }
 .despsec .despcolumn h3{
