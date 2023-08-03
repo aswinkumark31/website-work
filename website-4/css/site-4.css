@@ -1,0 +1,26 @@
+/* navigation section --start */
+
+.mainsec .heading h4{
+    font-weight: 700;
+    font-size: 2em;
+}
+.frontsec .navigationsec{
+    background-color: #f9ece6;
+}
+.navigationsec ul a{
+    color: #514f4f;
+    font-weight: 600;
+    font-size: medium;
+}
+.viewsec{
+    background-color: #f89cab;
+}
+.viewsec .despsec h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.viewsec .despsec p{
+    color: white;
+    font-size: 18px;
+}
