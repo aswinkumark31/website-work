@@ -95,3 +95,67 @@
  }
 
  /* saving section end */
+
+ /* shopping section --start */
+
+ .shoppingsec .shophead{
+   margin-bottom: 3%;
+ }
+ .shoppingsec .shophead h2{
+   color: black;
+   font-weight: bolder;
+ }
+ .deliverysec .column1{
+   background-color: whitesmoke;
+   padding-top: 2%;
+   padding-bottom: 2%;
+ }
+
+ /* shopping section --end */
+
+ /* gift section --start */
+
+ .giftsec{
+   background-color: #6929a5;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   border-radius: 2%;
+ }
+ .giftpic img{
+   width: 85%;
+   margin-top: 8%;
+   margin-bottom: 4%;
+ }
+ .giftdesp h3{
+   color: white;
+   font-weight: bolder;
+   font-size: 2em;
+   margin-top: 40%;
+   margin-bottom: 2%;
+ }
+ .giftdesp h6{
+   color: white;
+   margin-bottom: 5%;
+ }
+ .giftbutn .button1{
+   background-color: white;
+   color: black;   
+   padding: 1% 5% 1% 5%;
+ }
+ .giftbutn .button2{
+   background-color: #6929a5;
+   padding: 1% 5% 1% 5%;
+   color: white;
+ }
+ .giftbutn .button1:hover{
+   background-color: #9242dd;
+ }
+ .giftbutn .button2:hover{
+   background-color: #9242dd;
+ }
+
+ /* gift section --end */
+
+ /* contact section --start */
+
+ /* contact section --end */
