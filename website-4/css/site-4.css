@@ -149,13 +149,81 @@
  }
  .giftbutn .button1:hover{
    background-color: #9242dd;
+   border-color: #9242dd;
  }
  .giftbutn .button2:hover{
    background-color: #9242dd;
+   border-color: #9242dd;
  }
 
  /* gift section --end */
 
  /* contact section --start */
 
+ .contacthead h2{
+   font-weight: bold;
+   margin-bottom: 5%;
+ }
+ .mapsec .namesec button{
+   /* justify-content: center; */
+   background-color: #db4f66;
+   border-color: #db4f66;
+   padding: 2% 7% 2% 7%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   color: white;
+ }
  /* contact section --end */
+
+ /* textimonial section --start */
+
+ .monialhead h2{
+   font-weight: bolder;
+   color: black;
+   margin-top: 7%;
+   margin-bottom: 5%;
+ }
+ .modelsec h4{
+   color: #db4f66;
+ }
+ .modelsec h5{
+   color: #514f4f;
+ }
+ .modelsec h6{
+   font-size: large;
+   margin-bottom: 2%;
+   font-family: "poppins", sans-serif;
+ }
+ /* textimonial section -- end */
+
+ /* footer section --start */
+
+ .footersec{
+   background-color: #2d2d2d;
+   margin-top: 5%;
+   margin-bottom: 2%;
+ }
+ .footersec .iconcolumn img{
+   color: white;
+ }
+
+ .bottomsec .aboutsec h5{
+   color: white;
+   font-weight: bold;
+ }
+ .bottomsec .aboutsec p{
+   color: white;
+ }
+ .bottomsec .lettersec h5{
+   color: white;
+ }
+ .bottomsec .lettersec .emailsec{
+   padding: 2% 2% 2% 8%;
+   font-size: large;
+ }
+ .bottomsec .lettersec button{
+   background-color: #db4f66;
+   color: white;
+   padding: 2% 4% 2% 4%;
+ }
+ /* footer section --end */
