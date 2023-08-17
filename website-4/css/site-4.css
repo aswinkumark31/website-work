@@ -181,22 +181,6 @@ background-color: white;
 }
 
 
- /* .prdimg .imagesec .column2{
-  background-color: whitesmoke;
-}
-.prdimg .column2 .new{
-margin-top: 5%;
-background-color: white;
-}
-.imagesec .column2 img{
-  width: 30%;
-  margin-top: 12%;
-  margin-left: 20%;
-}
-.imagesec .column2 span{
-  color: #f16179;
-} */
-
  .buttonproduct{
   margin-top: 4%;
   background-color: #f16179;
@@ -363,7 +347,7 @@ background-color: white;
 
  /* footer section --start */
 
- .footersec{
+ .footersec .iconcolumn{
    background-color: #2d2d2d;
    margin-top: 5%;
    margin-bottom: 2%;
@@ -414,3 +398,154 @@ background-color: white;
   color: white;
  }
  /* footer section --end */
+
+
+ @media (max-width:992px) and (min-width:768px){
+  .savingsec .buttonsec{
+    padding-bottom: 10%;
+  }
+  .footersec .bottomsec .aboutsec{
+   width: 20%;
+  }
+  .footersec .bottomsec .lettersec{
+    width: 25%;
+   }
+   .footersec .bottomsec .helpsec{
+    width: 20%;
+   }
+   .footersec .bottomsec .contactsec{
+    width: 20%;
+   }
+  .deliverysec .column1{
+    width: 28%;
+  } 
+  .viewsec .despsec h1{
+    font-size: 50px;
+  }
+ }
+
+
+
+ @media (max-width:768px) and (min-width:576px){
+  .footersec .bottomsec .aboutsec{
+    width: 50%;
+    text-align: center;
+  }
+  .footersec .bottomsec .lettersec{
+    width: 50%;
+    
+  }
+  .footersec .bottomsec .helpsec{
+    width: 50%;
+    text-align: center;
+  }
+  .footersec .bottomsec .contactsec{
+    width: 50%;
+    text-align: center;
+  }
+  .footersec .iconcolumn{
+    margin-left: 3%;
+  }
+  .contactsec .map1{
+    width: 50%;
+  }
+  .contactsec .namesec{
+    width: 50%;
+  }
+  .giftsec img{
+   width: 40%;
+  }
+  .giftsec .giftdesp{
+    width: 50%;
+  }
+  .prdimg .imagesec .column1{
+    width: 30%;
+  }
+  .prdimg .imagesec .column2{
+    width: 30%;
+  }
+  .prdimg .imagesec .column3{
+    width: 30%;
+  }
+  .prdimg .imagesec .column4{
+    width: 30%;
+  }
+  .prdimg .imagesec .column5{
+    width: 30%;
+    margin-left: 3%;
+  }
+  .prdimg .imagesec .column6{
+    width: 30%;
+  }
+  .prdimg .imagesec .column7{
+    width: 30%;
+  }
+  .prdimg .imagesec .column8{
+    width: 30%;
+  }
+  .viewsec .despsec{
+    width: 50%;
+  }
+  .viewsec .imagesec{
+    width: 50%;
+  }
+ }
+
+
+ @media (max-width:576px) and (min-width:400px){
+  .viewsec .despsec{
+    width: 100%;
+  }
+  .prdimg .imagesec .column1{
+    width: 45%;
+  }
+  .prdimg .imagesec .column2{
+    width: 45%;
+  }
+  .prdimg .imagesec .column3{
+    width: 45%;
+  }
+  .prdimg .imagesec .column4{
+    width: 45%;
+  }
+  .prdimg .imagesec .column5{
+    width: 40%;
+  }
+  .prdimg .imagesec .column6{
+    width: 45%;
+  }
+  .prdimg .imagesec .column7{
+    width: 45%;
+  }
+  .prdimg .imagesec .column8{
+    width: 45%;
+  }
+  .giftsec img{
+    width: 90%;
+   }
+   .giftsec .giftdesp{
+    width: 90%;
+  }
+  .contactsec .map1{
+    width: 100%;
+  }
+  .contactsec .namesec{
+    width: 100%;
+  }
+  .footersec .bottomsec .aboutsec{
+    width: 100%;
+    text-align: center;
+  }
+  .footersec .bottomsec .lettersec{
+    width: 100%;
+    
+  }
+  .footersec .bottomsec .helpsec{
+    width: 100%;
+    text-align: center;
+  }
+  .footersec .bottomsec .contactsec{
+    width: 100%;
+    text-align: center;
+  }
+ }
