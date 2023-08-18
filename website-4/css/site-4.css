@@ -4,7 +4,7 @@
     font-weight: 700;
     font-size: 2em;
 }
-.frontsec .navigationsec{
+.frontsec {
     background-color: #f9ece6;
 }
 .navigationsec ul a{
@@ -46,8 +46,6 @@
     margin-top: 5%;
     margin-bottom: 5%;
  }
-
-
  .prdimg .imagesec .column1{
     background-color: whitesmoke;
  }
@@ -63,7 +61,6 @@
  .imagesec .column1 span{
     color: #f16179;
  }
-
  .prdimg .imagesec .column2{
   background-color: whitesmoke;
 }
@@ -79,9 +76,6 @@ background-color: white;
 .imagesec .column2 span{
   color: #f16179;
 }
-
-
-
 .prdimg .imagesec .column3{
   background-color: whitesmoke;
 }
@@ -97,8 +91,6 @@ background-color: white;
 .imagesec .column3 span{
   color: #f16179;
 }
-
-
 .prdimg .imagesec .column4{
   background-color: whitesmoke;
 }
@@ -146,7 +138,6 @@ background-color: white;
 .imagesec .column6 span{
   color: #f16179;
 }
-
 .prdimg .imagesec .column7{
   background-color: whitesmoke;
 }
@@ -162,8 +153,6 @@ background-color: white;
 .imagesec .column7 span{
   color: #f16179;
 }
-
-
 .prdimg .imagesec .column8{
   background-color: whitesmoke;
 }
@@ -179,8 +168,6 @@ background-color: white;
 .imagesec .column8 span{
   color: #f16179;
 }
-
-
  .buttonproduct{
   margin-top: 4%;
   background-color: #f16179;
@@ -313,7 +300,6 @@ background-color: white;
    margin-bottom: 5%;
  }
  .mapsec .namesec button{
-   /* justify-content: center; */
    background-color: #db4f66;
    border-color: #db4f66;
    padding: 2% 7% 2% 7%;
@@ -398,6 +384,8 @@ background-color: white;
   color: white;
  }
  /* footer section --end */
+
+ /* mediaquery section --start */
 
 
  @media (max-width:992px) and (min-width:768px){
@@ -549,3 +537,15 @@ background-color: white;
     text-align: center;
   }
  }
+
+ /* @media (max-width:600px) and (min-width:550px){
+
+  .prdimg .imagesec .column1{
+    width: 5%;
+  }
+  .prdimg .imagesec .column2{
+    width: 25%;
+  }
+ } */
+
+ /* mediaquery section --end */
