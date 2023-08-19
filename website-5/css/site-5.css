@@ -1,0 +1,51 @@
+/* navigation section --start */
+
+.sitename{
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.navsection a{
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+}
+/* navigation section --end */
+
+/* frontview section --start */
+
+.frontview .imagecolumn img{
+    width: 100%;
+}
+.frontview .column1{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.frontview .column1 h6{
+    color: darkolivegreen;
+    font-weight: bold;
+}
+.frontview .column1 h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+.frontview .buttonsec{
+    margin-top: 2%;
+}
+.frontview .button1{
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    padding: 1% 3% 1% 3%;
+}
+.frontview .button2{
+    color: darkolivegreen;
+    padding: 1% 3% 1% 3%;
+    font-weight: bold;
+}
+.frontview .button2:hover{
+    background-color: darkolivegreen;
+    color: white;
+}
+
+/* frontview section --end */
