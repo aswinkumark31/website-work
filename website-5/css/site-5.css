@@ -49,3 +49,84 @@
 }
 
 /* frontview section --end */
+
+/* about section --start */
+
+.aboutsec{
+    margin-top: 10%;
+}
+.aboutsec .imagecolumn img{
+    width: 100%;
+}
+.aboutsec .descpcolumn{
+    margin-top: 10%;
+}
+.aboutsec .descpcolumn h6{
+    color: darkolivegreen;
+}
+.aboutsec .descpcolumn h2{
+    font-weight: bold;
+}
+.aboutsec .descpcolumn p{
+    margin-top: 4%;
+    font-weight: bold;
+    color: #999999;
+}
+.biosec{
+    font-weight: bold;
+    font-size: large;
+    line-height: 50px;
+}
+.biosec .details{
+    color: darkolivegreen;
+}
+
+/* about section --end */
+
+/* skill section --start */
+
+.skillsec{
+    margin-top: 10%;
+}
+.skillsec .headsec h6{
+    text-align: center;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+.skillsec .headsec h2{
+    text-align: center;
+    font-weight: bold;
+}
+.cardsection{
+    margin-top: 5%;
+}
+.cardsection .column1{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+.cardsection .column1 h5{
+    color: darkolivegreen;
+    font-weight: bold;
+}
+.cardsection .column1 img{
+    margin-left: 42%;
+}
+
+/* skill section --end */
+
+/* project section --start */
+
+.projectsec{
+    background-color: #b1b493;
+    margin-top: 10%;
+}
+.manimage img{
+    width: 50%;
+}
+
+/* project section --end */
