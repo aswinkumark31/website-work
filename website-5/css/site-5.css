@@ -1,5 +1,7 @@
 /* navigation section --start */
-
+.navbar{
+    background-color: white;
+}
 .sitename{
     color: black;
     font-weight: bolder;
@@ -128,5 +130,60 @@
 .manimage img{
     width: 50%;
 }
+.projectsec .column1{
+    margin-left: 15%;
+}
+.projectsec .column1 h1{
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.projectsec .column1 h6{
+    color: white;
+    font-size: large;
+}
+.projectsec .column1 button{
+    padding: 1% 4% 1% 4%;
+    color: darkolivegreen;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 /* project section --end */
+
+/* my project section --start */
+
+.newsec .column1 h2{
+   font-weight: bold;
+   text-align: center;
+   margin-top: 5%;
+   margin-bottom: 2%;
+}
+.newsec .column1 h6{
+    text-align: center;
+}
+.lapimage{
+    margin-top: 5%;
+}
+.lapimage img{
+    width: 100%;
+    border-radius: 3%;
+}
+/* .lapimage img:hover{
+    
+} */
+
+/* my project section --end */
+
+/* contact section --start */
+
+.contactsec .column1{
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+.contactsec .column1 h2{
+    font-weight: bold;
+}
+
+/* contact section --end */
