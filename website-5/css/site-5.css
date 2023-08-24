@@ -2,6 +2,11 @@
 .navbar{
     background-color: white;
 }
+.navbar a:hover{
+    color: #b1b493;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
 .sitename{
     color: black;
     font-weight: bolder;
@@ -61,7 +66,7 @@
     width: 100%;
 }
 .aboutsec .descpcolumn{
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .aboutsec .descpcolumn h6{
     color: darkolivegreen;
@@ -170,9 +175,14 @@
     width: 100%;
     border-radius: 3%;
 }
-/* .lapimage img:hover{
-    
-} */
+.lapimage h3{
+    text-align: center;
+    margin-top: 4%;
+    font-weight: bold;
+}
+.lapimage .image1:hover{
+    background-image: linear-gradient(rgb(24, 24, 17));
+}
 
 /* my project section --end */
 
@@ -180,10 +190,33 @@
 
 .contactsec .column1{
     margin-top: 6%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 .contactsec .column1 h2{
     font-weight: bold;
+}
+.formsec .column1 button{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding: 2% 5% 2% 5%;
+    color: white;
+    background-color: #b1b493;
+}
+.formsec .column2{
+    margin-top: 10%;
+}
+.formsec .column2 img{
+    background-color: #b1b493;
+    width: 8%;
+    border-radius: 100%;
+}
+.formsec .column2 span{
+    font-size: large;
+    font-weight: bold;
+}
+.formsec .column2 li{
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 /* contact section --end */
