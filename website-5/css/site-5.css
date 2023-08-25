@@ -38,6 +38,7 @@
 }
 .frontview .buttonsec{
     margin-top: 2%;
+    margin-bottom: 2%;
 }
 .frontview .button1{
     background-color: darkolivegreen;
@@ -63,7 +64,7 @@
     margin-top: 10%;
 }
 .aboutsec .imagecolumn img{
-    width: 100%;
+    width: 90%;
 }
 .aboutsec .descpcolumn{
     margin-top: 8%;
@@ -175,13 +176,18 @@
     width: 100%;
     border-radius: 3%;
 }
+
 .lapimage h3{
     text-align: center;
     margin-top: 4%;
     font-weight: bold;
 }
-.lapimage .image1:hover{
+/* .lapimage .image1:hover{
     background-image: linear-gradient(rgb(24, 24, 17));
+} */
+.lapimage img:hover{
+    filter: invert(35%);
+    transform: scale(80%);
 }
 
 /* my project section --end */
@@ -220,3 +226,33 @@
 }
 
 /* contact section --end */
+
+/* bottom section --start */
+
+.bottomsec{
+    background-color: #232931;
+}
+.bottomhead h3{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.linksec .image1{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.linksec .image2{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.linksec .image3{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+/* bottom section --end */
